@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.zxing', name: 'javase', version: '2.1'
+    compile group: 'net.sf.jasperreports', name: 'jasperreports', version: '5.0.0'
+    compile group: 'com.lowagie', name:'itext', version:'2.1.7'
+
+}
